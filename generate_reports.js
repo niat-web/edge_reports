@@ -238,8 +238,8 @@ function generateReports(csvFilePath, templatePath, outputDir) {
         return;
     }
 
-    // Parse header
-    const headers = allRows[0];
+    // Parse header and normalize newlines
+    const headers = allRows[0].map(h => h.replace(/\r\n/g, '\n'));
     console.log(`📋 Found ${headers.length} columns in CSV`);
     console.log(`👥 Processing ${allRows.length - 1} candidates...\n`);
 

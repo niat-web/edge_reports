@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDGE Candidate Report - Hemant Sahu</title>
+    <style>
+        :root {
+            --primary: #0066FF;
+            --success: #10B981;
+            --warning: #F59E0B;
+            --grey-light: #F1F5F9;
+            --grey-text: #64748B;
+        }
+
+        /* Smooth Hover Transitions */
+        .hover-lift {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05) !important;
+        }
+
+        .row-hover tr {
+            transition: background-color 0.2s ease;
+        }
+
+        .row-hover tr:hover {
+            background-color: #F8FAFC !important;
+        }
+
+        button,
+        .btn-hover {
+            transition: all 0.2s ease;
+        }
+
+        button:hover,
+        .btn-hover:hover {
+            filter: brightness(0.92);
+            transform: scale(1.01);
+        }
+
+        .tab-btn {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .list-hover>div,
+        .list-hover>li {
+            transition: all 0.2s ease;
+            border-radius: 8px;
+            padding: 4px 8px;
+            margin-left: -8px;
+        }
+
+        .list-hover>div:hover,
+        .list-hover>li:hover {
+            background-color: #F8FAFC;
+            transform: translateX(5px);
+        }
+    </style>
+</head>
+
+<body
+    style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background-color: #f5f5f5;">
+
+    <div style="max-width: 1200px; margin: 0 auto; background-color: white; padding: 40px;">
+
+        <div
+            style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 40px; border-bottom: 1px solid #e5e7eb; padding-bottom: 20px;">
+
+            <div style="display: flex; gap: 20px; align-items: center;">
+                <div
+                    style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: 3px solid #0066FF; display: flex; align-items: center; justify-content: center; color: white; font-size: 32px; font-weight: bold;">
+                    HS</div>
+
+                <div>
+                    <h1 style="margin: 0 0 5px 0; font-size: 28px; font-weight: 700; color: #111827;">Hemant Sahu
+                    </h1>
+                    <p style="margin: 0 0 10px 0; color: #6b7280; font-size: 14px;">NIT Jaipur (MNIT)</p>
+                    <div style="display: flex; gap: 15px;">
+                        <span class="hover-lift"
+                            style="display: inline-flex; align-items: center; gap: 5px; padding: 4px 12px; background-color: #EFF6FF; border-radius: 20px; color: #0066FF; font-size: 12px; font-weight: 500; cursor: default;">
+                            ✓ Offline Proctored
+                        </span>
+                        <span class="hover-lift"
+                            style="display: inline-flex; align-items: center; gap: 5px; padding: 4px 12px; background-color: #EFF6FF; border-radius: 20px; color: #0066FF; font-size: 12px; font-weight: 500; cursor: default;">
+                            ✓ Human Evaluated
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: right;">
+                <div
+                    style="background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%); color: white; padding: 16px 32px; border-radius: 12px; font-size: 24px; font-weight: 800; letter-spacing: 2px; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3); margin-bottom: 8px;">
+                    MEDIUM HIRE
+                </div>
+            </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; margin-bottom: 40px;">
+
+            <!-- DSA Progress Ring -->
+            <div class="hover-lift"
+                style="text-align: center; padding: 25px 20px; background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; position: relative;">
+                <div
+                    style="width: 110px; height: 110px; border-radius: 50%; background: conic-gradient(#0066FF calc(50 * 1%), #F1F5F9 0); display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; transition: all 0.5s ease;">
+                    <div
+                        style="width: 94px; height: 94px; border-radius: 50%; background: white; display: flex; align-items: center; justify-content: center; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
+                        <span style="font-size: 32px; font-weight: 800; color: #111827;">5</span>
+                    </div>
+                </div>
+                <h3 style="margin: 0 0 5px 0; font-size: 16px; font-weight: 700; color: #111827;">DSA</h3>
+                <p style="margin: 0; font-size: 13px; color: #64748B; font-weight: 500;">Above average</p>
+            </div>
+
+            <!-- Coding Score Progress Ring -->
+            <div class="hover-lift"
+                style="text-align: center; padding: 25px 20px; background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; position: relative;">
+                <div
+                    style="width: 110px; height: 110px; border-radius: 50%; background: conic-gradient(#0066FF calc(59.54999999999999 * 1%), #F1F5F9 0); display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; transition: all 0.5s ease;">
+                    <div
+                        style="width: 94px; height: 94px; border-radius: 50%; background: white; display: flex; align-items: center; justify-content: center; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
+                        <span style="font-size: 32px; font-weight: 800; color: #111827;">71</span>
+                    </div>
+                </div>
+                <h3 style="margin: 0 0 5px 0; font-size: 16px; font-weight: 700; color: #111827;">Coding Score</h3>
+                <p style="margin: 0; font-size: 13px; color: #64748B; font-weight: 500;">Top 25% nationally</p>
+            </div>
+
+            <!-- CS Fundamentals Progress Ring -->
+            <div class="hover-lift"
+                style="text-align: center; padding: 25px 20px; background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; position: relative;">
+                <div
+                    style="width: 110px; height: 110px; border-radius: 50%; background: conic-gradient(#0066FF calc(30 * 1%), #F1F5F9 0); display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; transition: all 0.5s ease;">
+                    <div
+                        style="width: 94px; height: 94px; border-radius: 50%; background: white; display: flex; align-items: center; justify-content: center; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">
+                        <span style="font-size: 32px; font-weight: 800; color: #111827;">30</span>
+                    </div>
+                </div>
+                <h3 style="margin: 0 0 5px 0; font-size: 16px; font-weight: 700; color: #111827;">CS Fundamentals</h3>
+                <p style="margin: 0; font-size: 13px; color: #64748B; font-weight: 500;">Above average</p>
+            </div>
+
+            <!-- Communication Card -->
+            <div class="hover-lift"
+                style="text-align: center; padding: 25px 20px; background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px;">
+                <div
+                    style="margin-bottom: 20px; height: 110px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <div style="margin-bottom: 12px; display: flex; gap: 4px;">
+                        <span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #d1d5db; font-size: 16px;">★</span>
+                    </div>
+                    <h2 style="margin: 0; font-size: 32px; font-weight: 800; color: #F59E0B;">4/5</h2>
+                </div>
+                <h3 style="margin: 0 0 5px 0; font-size: 16px; font-weight: 700; color: #111827;">Communication</h3>
+                <p style="margin: 0; font-size: 13px; color: #64748B; font-weight: 500;">Interview-ready</p>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 40px;">
+            <h2
+                style="margin: 0 0 20px 0; font-size: 20px; font-weight: 700; color: #111827; display: flex; align-items: center; gap: 10px;">
+                <span style="color: #0066FF;">📋</span> Executive Summary
+            </h2>
+
+            <div class="hover-lift"
+                style="border: 2px solid #0066FF; border-radius: 12px; overflow: hidden; background-color: white;">
+
+                <div style="padding: 25px; background-color: white;" class="list-hover">
+                    <div style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                        <span style="color: #10B981; font-size: 18px; flex-shrink: 0;">✓</span>
+                        <p style="margin: 0; color: #4B5563; font-size: 14px;">Good in dsa,can practice more to improve.</p>
+                    </div>
+                    <div style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                        <span style="color: #10B981; font-size: 18px; flex-shrink: 0;">✓</span>
+                        <p style="margin: 0; color: #4B5563; font-size: 14px;">Fullstack project experience (NA)</p>
+                    </div>
+                    <div style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px;">
+                        <span style="color: #10B981; font-size: 18px; flex-shrink: 0;">✓</span>
+                        <p style="margin: 0; color: #4B5563; font-size: 14px;">Suitable for: Backend SDE, Fullstack roles</p>
+                    </div>
+                </div>
+
+                <div style="height: 1px; background-color: #E5E7EB; margin: 0 25px;"></div>
+
+                <div style="padding: 25px 25px 20px 25px; background-color: white;">
+                    <h3
+                        style="margin: 0 0 8px 0; font-size: 15px; font-weight: 700; color: #111827; display: flex; align-items: center; gap: 8px;">
+                        <span style="color: #0066FF;">💼</span> BEST FIT ROLES
+                    </h3>
+                    <p style="margin: 0; color: #6B7280; font-size: 14px;">Backend Engineer · Fullstack Developer · SDE-1</p>
+                </div>
+
+                <div style="height: 1px; background-color: #E5E7EB; margin: 0 25px;"></div>
+
+                <div style="padding: 25px; background-color: #EFF6FF;">
+                    <h3 style="margin: 0 0 15px 0; font-size: 15px; font-weight: 700; color: #0066FF;">Why This
+                        Candidate?</h3>
+                    <ul style="margin: 0; padding-left: 18px; color: #4B5563; font-size: 14px; line-height: 1.7;">
+                        <li style="margin-bottom: 8px;">Professional implementation skills with 71/120 coding score (Top 25% nationally)</li>
+<li style="margin-bottom: 8px;">Strong communication with interview-ready rating (4/5)</li>
+<li style="margin-bottom: 8px;">Good in dsa,can practice more to improve.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 40px;">
+
+            <div class="hover-lift"
+                style="border: 2px solid #10B981; border-radius: 12px; padding: 25px; background-color: #F0FDF4;">
+                <h3
+                    style="margin: 0 0 20px 0; font-size: 16px; font-weight: 700; color: #10B981; display: flex; align-items: center; gap: 8px;">
+                    <span>✓</span> Key Strengths
+                </h3>
+                <div class="list-hover">
+                    
+                
+                
+                <div style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #10B981;">✓</span>
+        <p style="margin: 0; color: #065F46; font-size: 14px;">Effective professional communication</p>
+    </div>
+                <div style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #10B981;">✓</span>
+        <p style="margin: 0; color: #065F46; font-size: 14px;">Fullstack project experience</p>
+    </div>
+            
+                </div>
+            </div>
+
+            <div class="hover-lift"
+                style="border: 2px solid #F59E0B; border-radius: 12px; padding: 25px; background-color: #FFFBEB;">
+                <h3
+                    style="margin: 0 0 20px 0; font-size: 16px; font-weight: 700; color: #F59E0B; display: flex; align-items: center; gap: 8px;">
+                    <span>△</span> Growth Areas
+                </h3>
+                <div class="list-hover">
+                    <div style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #F59E0B;">△</span>
+        <p style="margin: 0; color: #92400E; font-size: 14px;">Deepen understanding of Core CS Fundamentals</p>
+    </div>
+<div style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #F59E0B;">△</span>
+        <p style="margin: 0; color: #92400E; font-size: 14px;">Work on independent problem-solving without external hints</p>
+    </div>
+<div style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #F59E0B;">△</span>
+        <p style="margin: 0; color: #92400E; font-size: 14px;">Practice complex data structures and algorithmic efficiency</p>
+    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 40px;">
+            <h2
+                style="margin: 0 0 10px 0; font-size: 20px; font-weight: 700; color: #111827; display: flex; align-items: center; gap: 10px;">
+                <span style="color: #0066FF;">📹</span> Evidence Vault
+            </h2>
+            <p style="margin: 0 0 25px 0; color: #6b7280; font-size: 14px; font-style: italic;">See exactly how they
+                think — Watch videos before you meet them</p>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px;">
+
+                <div class="hover-lift"
+                    style="border: 2px solid #0066FF; border-radius: 12px; overflow: hidden; background-color: white;">
+                    <div
+                        style="background: linear-gradient(135deg, #BFDBFE 0%, #93C5FD 100%); height: 180px; display: flex; align-items: center; justify-content: center; position: relative;">
+                        <a href="https://config.topin.tech/candidate-statistics/7e57aab4-766c-4100-afba-7e67dcef3828/32150143-a2de-43d9-902f-2683c12c8a05" target="_blank" style="text-decoration: none;">
+                            <span style="font-size: 48px; color: #0066FF;">▶</span>
+                        </a>
+
+                    </div>
+                    <div style="padding: 20px;">
+                        <h3 style="margin: 0 0 5px 0; font-size: 16px; font-weight: 700; color: #111827;">Report
+                        </h3>
+                        <p style="margin: 0 0 10px 0; color: #6b7280; font-size: 13px;">🔐 Login Required - Use These
+                            Credentials
+                            Phone: 9800141844|OTP: 561811
+                        </p>
+                        <div style="margin-bottom: 15px;">
+                            <span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #d1d5db; font-size: 16px;">★</span>
+                            <span
+                                style="margin-left: 5px; color: #111827; font-weight: 600;">4.2/5</span>
+                        </div>
+                        <a href="https://config.topin.tech/candidate-statistics/7e57aab4-766c-4100-afba-7e67dcef3828/32150143-a2de-43d9-902f-2683c12c8a05" target="_blank" style="text-decoration: none;">
+                            <button
+                                style="width: 100%; background-color: #0066FF; color: white; border: none; padding: 12px; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer;">▶
+                                WATCH NOW</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hover-lift"
+                    style="border: 2px solid #0066FF; border-radius: 12px; overflow: hidden; background-color: white;">
+                    <div
+                        style="background: linear-gradient(135deg, #BFDBFE 0%, #93C5FD 100%); height: 180px; display: flex; align-items: center; justify-content: center; position: relative;">
+                        <a href="https://drive.google.com/file/d/1WYKyHokJe4sR6xSfdDpl6Nr1fP8CmLFB/view?usp=sharing" target="_blank" style="text-decoration: none;">
+                            <span style="font-size: 48px; color: #0066FF;">▶</span>
+                        </a>
+
+                    </div>
+                    <div style="padding: 20px;">
+                        <h3 style="margin: 0 0 5px 0; font-size: 16px; font-weight: 700; color: #111827;">TR1</h3>
+                        <p style="margin: 0 0 10px 0; color: #6b7280; font-size: 13px;">Good Understanding with Clear Integration Explanation</p>
+                        <div style="margin-bottom: 15px;">
+                            <span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span><span style="color: #F59E0B; font-size: 16px;">★</span>
+                            <span
+                                style="margin-left: 5px; color: #111827; font-weight: 600;">7.5/5</span>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1WYKyHokJe4sR6xSfdDpl6Nr1fP8CmLFB/view?usp=sharing" target="_blank" style="text-decoration: none;">
+                            <button
+                                style="width: 100%; background-color: #0066FF; color: white; border: none; padding: 12px; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer;">▶
+                                WATCH NOW</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hover-lift"
+                    style="border: 2px solid #0066FF; border-radius: 12px; overflow: hidden; background-color: white;">
+                    <div
+                        style="background: linear-gradient(135deg, #BFDBFE 0%, #93C5FD 100%); height: 180px; display: flex; align-items: center; justify-content: center; position: relative;">
+                        <a href="https://drive.google.com/file/d/1UEAvxZe2rhGQ3T_WhebzWOlStYjy4dfH/view?usp=sharing" target="_blank" style="text-decoration: none;">
+                            <span style="font-size: 48px; color: #0066FF;">▶</span>
+                        </a>
+
+                    </div>
+                    <div style="padding: 20px;">
+                        <h3 style="margin: 0 0 5px 0; font-size: 16px; font-weight: 700; color: #111827;">TR2</h3>
+                        <p style="margin: 0 0 10px 0; color: #6b7280; font-size: 13px;">Fullstack Project</p>
+                        <div style="margin-bottom: 15px;">
+                            <span style="color: #F59E0B; font-size: 16px;">★★★★</span><span
+                                style="color: #d1d5db; font-size: 16px;">★</span>
+                            <span style="margin-left: 5px; color: #111827; font-weight: 600;">4/5</span>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1UEAvxZe2rhGQ3T_WhebzWOlStYjy4dfH/view?usp=sharing" target="_blank" style="text-decoration: none;">
+                            <button
+                                style="width: 100%; background-color: #0066FF; color: white; border: none; padding: 12px; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer;">▶
+                                WATCH NOW</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 40px;">
+            <h2
+                style="margin: 0 0 10px 0; font-size: 20px; font-weight: 700; color: #111827; display: flex; align-items: center; gap: 10px;">
+                <span style="color: #0066FF;">💻</span> Verified Code Evidence
+            </h2>
+            <p style="margin: 0 0 25px 0; color: #6b7280; font-size: 14px; font-style: italic;">Experience the
+                candidate's problem-solving depth and coding precision.</p>
+
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px;">
+
+                <!-- LeetCode Card #1 -->
+                <div class="hover-lift"
+                    style="display: block; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                    <div
+                        style="background-color: #f8fafc; height: 160px; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid #e5e7eb;">
+                        <div
+                            style="font-family: monospace; color: #475569; font-size: 12px; line-height: 1.5; text-align: left;">
+                            function solve(arr) {<br>
+                            &nbsp;&nbsp;// Implementation<br>
+                            &nbsp;&nbsp;return result;<br>
+                            }
+                        </div>
+                    </div>
+                    <div style="padding: 20px;">
+                        <h4 style="margin: 0 0 5px 0; font-size: 14px; color: #111827; font-weight: 700;">LeetCode #1
+                        </h4>
+                        <p style="margin: 0 0 15px 0; color: #64748b; font-size: 13px; min-height: 38px;">
+                            Top k frequent elements</p>
+                        <div
+                            style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 20px;">
+                            <div
+                                style="display: flex; align-items: center; gap: 5px; color: #10b981; font-size: 12px; font-weight: 600;">
+                                <span style="font-size: 14px;">✓</span> Solved
+                            </div>
+                        </div>
+                        <a href="https://leetcode.com/problems/top-k-frequent-elements/description/" target="_blank" style="text-decoration: none;">
+                            <button
+                                style="width: 100%; border: 1.5px solid #0066FF; background: white; color: #0066FF; padding: 10px; border-radius: 8px; font-size: 13px; font-weight: 700; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                                &lt;&gt; VIEW CODE
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- LeetCode Card #2 -->
+                <div class="hover-lift"
+                    style="display: block; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                    <div
+                        style="background-color: #f8fafc; height: 160px; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid #e5e7eb;">
+                        <div
+                            style="font-family: monospace; color: #475569; font-size: 12px; line-height: 1.5; text-align: left;">
+                            function solve(arr) {<br>
+                            &nbsp;&nbsp;// Implementation<br>
+                            &nbsp;&nbsp;return result;<br>
+                            }
+                        </div>
+                    </div>
+                    <div style="padding: 20px;">
+                        <h4 style="margin: 0 0 5px 0; font-size: 14px; color: #111827; font-weight: 700;">LeetCode #2
+                        </h4>
+                        <p style="margin: 0 0 15px 0; color: #64748b; font-size: 13px; min-height: 38px;">
+                            Frequency of the most frequent element</p>
+                        <div
+                            style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 20px;">
+                            <div
+                                style="display: flex; align-items: center; gap: 5px; color: #10b981; font-size: 12px; font-weight: 600;">
+                                <span style="font-size: 14px;">✓</span> Solved
+                            </div>
+                        </div>
+                        <a href="https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/" target="_blank" style="text-decoration: none;">
+                            <button
+                                style="width: 100%; border: 1.5px solid #0066FF; background: white; color: #0066FF; padding: 10px; border-radius: 8px; font-size: 13px; font-weight: 700; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                                &lt;&gt; VIEW CODE
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- LeetCode Card #3 -->
+                <div class="hover-lift"
+                    style="display: none; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                    <div
+                        style="background-color: #f8fafc; height: 160px; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid #e5e7eb;">
+                        <div
+                            style="font-family: monospace; color: #475569; font-size: 12px; line-height: 1.5; text-align: left;">
+                            function solve(arr) {<br>
+                            &nbsp;&nbsp;// Implementation<br>
+                            &nbsp;&nbsp;return result;<br>
+                            }
+                        </div>
+                    </div>
+                    <div style="padding: 20px;">
+                        <h4 style="margin: 0 0 5px 0; font-size: 14px; color: #111827; font-weight: 700;">LeetCode #3
+                        </h4>
+                        <p style="margin: 0 0 15px 0; color: #64748b; font-size: 13px; min-height: 38px;">
+                            Problem Solving</p>
+                        <div
+                            style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 20px;">
+                            <div
+                                style="display: flex; align-items: center; gap: 5px; color: #10b981; font-size: 12px; font-weight: 600;">
+                                <span style="font-size: 14px;">✓</span> Solved
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" style="text-decoration: none;">
+                            <button
+                                style="width: 100%; border: 1.5px solid #0066FF; background: white; color: #0066FF; padding: 10px; border-radius: 8px; font-size: 13px; font-weight: 700; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                                &lt;&gt; VIEW CODE
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="margin-bottom: 40px;" id="detailed-scores-section">
+            <h2
+                style="margin: 0 0 20px 0; font-size: 20px; font-weight: 700; color: #111827; display: flex; align-items: center; gap: 10px;">
+                <span style="color: #0066FF;">📊</span> Detailed Scores
+            </h2>
+
+            <!-- Pill-style Tab Bar -->
+            <div
+                style="display: flex; gap: 5px; margin-bottom: 30px; background-color: #F1F5F9; padding: 6px; border-radius: 12px; width: 100%;">
+                <button onclick="openTab(event, 'assessment-tab')" class="score-tab-btn active"
+                    style="flex: 1; padding: 10px 0; border: none; background: white; font-size: 14px; font-weight: 600; color: #111827; border-radius: 8px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">Assessment</button>
+                <button onclick="openTab(event, 'dsa-tab')" class="score-tab-btn"
+                    style="flex: 1; padding: 10px 0; border: none; background: transparent; font-size: 14px; font-weight: 500; color: #64748B; border-radius: 8px; cursor: pointer;">TR1</button>
+                <button onclick="openTab(event, 'projects-tab')" class="score-tab-btn"
+                    style="flex: 1; padding: 10px 0; border: none; background: transparent; font-size: 14px; font-weight: 500; color: #64748B; border-radius: 8px; cursor: pointer;">TR2</button>
+                <button onclick="openTab(event, 'remarks-tab')" class="score-tab-btn"
+                    style="flex: 1; padding: 10px 0; border: none; background: transparent; font-size: 14px; font-weight: 500; color: #64748B; border-radius: 8px; cursor: pointer;">Evaluator
+                    Remarks</button>
+            </div>
+
+            <!-- Tab Contents -->
+            <div id="assessment-tab" class="score-tab-content" style="display: block;">
+                <table style="width: 100%; border-collapse: collapse; margin-bottom: 25px;" class="row-hover">
+                    <thead>
+                        <tr style="border-top: 2px solid #0066FF; border-bottom: 1.5px solid #E5E7EB;">
+                            <th
+                                style="text-align: left; padding: 18px 20px; font-size: 14px; font-weight: 700; color: #111827;">
+                                Assessment</th>
+                            <th
+                                style="text-align: center; padding: 18px 20px; font-size: 14px; font-weight: 700; color: #111827;">
+                                Score</th>
+                            <th
+                                style="text-align: center; padding: 18px 20px; font-size: 14px; font-weight: 700; color: #111827;">
+                                Percentile</th>
+                            <th
+                                style="text-align: center; padding: 18px 20px; font-size: 14px; font-weight: 700; color: #111827;">
+                                Time Taken</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 20px; font-size: 15px; color: #111827; font-weight: 500;">Coding</td>
+                            <td style="text-align: center; padding: 20px;">
+                                <span
+                                    style="background-color: #EFF6FF; color: #0066FF; padding: 6px 16px; border-radius: 6px; font-weight: 700; font-size: 14px;">71/120</span>
+                            </td>
+                            <td style="text-align: center; padding: 20px;">
+                                <div
+                                    style="display: flex; align-items: center; justify-content: center; gap: 8px; color: #10B981; font-weight: 600; font-size: 14px;">
+                                    <span style="font-size: 16px;">📈</span> Top 25% nationally
+                                </div>
+                            </td>
+                            <td style="text-align: center; padding: 20px; font-size: 14px; color: #64748B;">
+                                <span>⏱</span> 1hr 45min
+                            </td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 20px; font-size: 15px; color: #111827; font-weight: 500;">DSA MCQ</td>
+                            <td style="text-align: center; padding: 20px;">
+                                <span
+                                    style="background-color: #FFFBEB; color: #F59E0B; padding: 6px 16px; border-radius: 6px; font-weight: 700; font-size: 14px;">5/10</span>
+                            </td>
+                            <td style="text-align: center; padding: 20px;">
+                                <div
+                                    style="display: flex; align-items: center; justify-content: center; gap: 8px; color: #10B981; font-weight: 600; font-size: 14px;">
+                                    <span style="font-size: 16px;">📈</span> Above average
+                                </div>
+                            </td>
+                            <td style="text-align: center; padding: 20px; font-size: 14px; color: #64748B;">
+                                <span>⏱</span> 15 min
+                            </td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 20px; font-size: 15px; color: #111827; font-weight: 500;">CS
+                                Fundamentals</td>
+                            <td style="text-align: center; padding: 20px;">
+                                <span
+                                    style="background-color: #EFF6FF; color: #0066FF; padding: 6px 16px; border-radius: 6px; font-weight: 700; font-size: 14px;">30/40</span>
+                            </td>
+                            <td style="text-align: center; padding: 20px;">
+                                <div
+                                    style="display: flex; align-items: center; justify-content: center; gap: 8px; color: #10B981; font-weight: 600; font-size: 14px;">
+                                    <span style="font-size: 16px;">📈</span> Above average
+                                </div>
+                            </td>
+                            <td style="text-align: center; padding: 20px; font-size: 14px; color: #64748B;">
+                                <span>⏱</span> 25 min
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div style="border: 1.5px solid #10B981; background-color: #F0FDF4; padding: 20px 25px; border-radius: 12px; margin-top: 25px;"
+                    class="hover-lift">
+                    <p
+                        style="margin: 0; color: #10B981; font-size: 14px; font-style: italic; line-height: 1.6; text-align: center;">
+                        "Good in dsa,can practice more to improve."
+                    </p>
+                </div>
+            </div>
+
+            <div id="dsa-tab" class="score-tab-content" style="display: none;">
+                <div style="background-color: #F8FAFC; border: 1px solid #E5E7EB; border-radius: 12px; padding: 30px;"
+                    class="hover-lift">
+                    <!-- content same but with hover-lift -->
+                    <h3 style="margin: 0 0 25px 0; font-size: 18px; font-weight: 700; color: #111827;">DSA Interview
+                    </h3>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px 50px; margin-bottom: 30px;">
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-size: 14px; font-weight: 600; color: #4B5563;">Problem Solving</span>
+                                <span
+                                    style="font-size: 14px; font-weight: 700; color: #0066FF;">4/5</span>
+                            </div>
+                            <div style="height: 8px; background-color: #E5E7EB; border-radius: 4px; overflow: hidden;">
+                                <div
+                                    style="width: calc(4 * 20%); height: 100%; background-color: #0066FF; border-radius: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-size: 14px; font-weight: 600; color: #4B5563;">Code Quality</span>
+                                <span
+                                    style="font-size: 14px; font-weight: 700; color: #0066FF;">5/5</span>
+                            </div>
+                            <div style="height: 8px; background-color: #E5E7EB; border-radius: 4px; overflow: hidden;">
+                                <div
+                                    style="width: calc(5 * 20%); height: 100%; background-color: #0066FF; border-radius: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-size: 14px; font-weight: 600; color: #4B5563;">Communication</span>
+                                <span
+                                    style="font-size: 14px; font-weight: 700; color: #0066FF;">4/5</span>
+                            </div>
+                            <div style="height: 8px; background-color: #E5E7EB; border-radius: 4px; overflow: hidden;">
+                                <div
+                                    style="width: calc(4 * 20%); height: 100%; background-color: #0066FF; border-radius: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-size: 14px; font-weight: 600; color: #4B5563;">Time Management</span>
+                                <span
+                                    style="font-size: 14px; font-weight: 700; color: #0066FF;">4/5</span>
+                            </div>
+                            <div style="height: 8px; background-color: #E5E7EB; border-radius: 4px; overflow: hidden;">
+                                <div
+                                    style="width: calc(4 * 20%); height: 100%; background-color: #0066FF; border-radius: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        style="padding: 20px; background-color: white; border-radius: 8px; border-left: 4px solid #0066FF;">
+                        <p style="margin: 0; color: #4B5563; font-size: 14px; font-style: italic; line-height: 1.6;">
+                            "Gave correct approach after hint."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="projects-tab" class="score-tab-content" style="display: none;">
+                <div style="background-color: #F8FAFC; border: 1px solid #E5E7EB; border-radius: 12px; padding: 30px;"
+                    class="hover-lift">
+                    <h3 style="margin: 0 0 25px 0; font-size: 18px; font-weight: 700; color: #111827;">Project Deep-Dive
+                    </h3>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px 50px; margin-bottom: 30px;">
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-size: 14px; font-weight: 600; color: #4B5563;">Technical Depth</span>
+                                <span
+                                    style="font-size: 14px; font-weight: 700; color: #0066FF;">4/5</span>
+                            </div>
+                            <div style="height: 8px; background-color: #E5E7EB; border-radius: 4px; overflow: hidden;">
+                                <div
+                                    style="width: calc(4 * 20%); height: 100%; background-color: #0066FF; border-radius: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-size: 14px; font-weight: 600; color: #4B5563;">Architecture</span>
+                                <span
+                                    style="font-size: 14px; font-weight: 700; color: #0066FF;">4/5</span>
+                            </div>
+                            <div style="height: 8px; background-color: #E5E7EB; border-radius: 4px; overflow: hidden;">
+                                <div
+                                    style="width: calc(4 * 20%); height: 100%; background-color: #0066FF; border-radius: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-size: 14px; font-weight: 600; color: #4B5563;">Problem-Solving</span>
+                                <span
+                                    style="font-size: 14px; font-weight: 700; color: #0066FF;">4/5</span>
+                            </div>
+                            <div style="height: 8px; background-color: #E5E7EB; border-radius: 4px; overflow: hidden;">
+                                <div
+                                    style="width: calc(4 * 20%); height: 100%; background-color: #0066FF; border-radius: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-size: 14px; font-weight: 600; color: #4B5563;">Best Practices</span>
+                                <span
+                                    style="font-size: 14px; font-weight: 700; color: #0066FF;">4/5</span>
+                            </div>
+                            <div style="height: 8px; background-color: #E5E7EB; border-radius: 4px; overflow: hidden;">
+                                <div
+                                    style="width: calc(4 * 20%); height: 100%; background-color: #0066FF; border-radius: 4px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        style="padding: 20px; background-color: white; border-radius: 8px; border-left: 4px solid #0066FF;">
+                        <p style="margin: 0; color: #4B5563; font-size: 14px; font-style: italic; line-height: 1.6;">
+                            "Good Understanding with Clear Integration Explanation."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="remarks-tab" class="score-tab-content" style="display: none;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <div style="border: 1px solid #10B981; border-radius: 12px; padding: 25px; background-color: #F0FDF4;"
+                        class="hover-lift">
+                        <h3 style="margin: 0 0 15px 0; font-size: 15px; font-weight: 700; color: #10B981;">Technical
+                            Strengths</h3>
+                        <div style="color: #065F46; font-size: 14px;">
+                
+                
+                <div style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #10B981;">✓</span>
+        <p style="margin: 0; color: #065F46; font-size: 14px;">Effective professional communication</p>
+    </div>
+                <div style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #10B981;">✓</span>
+        <p style="margin: 0; color: #065F46; font-size: 14px;">Fullstack project experience</p>
+    </div>
+            </div>
+                    </div>
+                    <div style="border: 1px solid #F59E0B; border-radius: 12px; padding: 25px; background-color: #FFFBEB;"
+                        class="hover-lift">
+                        <h3 style="margin: 0 0 15px 0; font-size: 15px; font-weight: 700; color: #F59E0B;">Development
+                            Areas</h3>
+                        <div style="color: #92400E; font-size: 14px;"><div style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #F59E0B;">△</span>
+        <p style="margin: 0; color: #92400E; font-size: 14px;">Deepen understanding of Core CS Fundamentals</p>
+    </div>
+<div style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #F59E0B;">△</span>
+        <p style="margin: 0; color: #92400E; font-size: 14px;">Work on independent problem-solving without external hints</p>
+    </div>
+<div style="margin-bottom: 12px; display: flex; align-items: center; gap: 10px;">
+        <span style="color: #F59E0B;">△</span>
+        <p style="margin: 0; color: #92400E; font-size: 14px;">Practice complex data structures and algorithmic efficiency</p>
+    </div></div>
+                    </div>
+                </div>
+                <div style="border: 1px solid #0066FF; border-radius: 12px; padding: 25px; background-color: #EFF6FF;"
+                    class="hover-lift">
+                    <h3 style="margin: 0 0 10px 0; font-size: 15px; font-weight: 700; color: #0066FF;">Recommended Role
+                        Fit</h3>
+                    <p style="margin: 0; color: #1E40AF; font-size: 14px; line-height: 1.6;">Backend Engineer · Fullstack Developer · SDE-1</p>
+                </div>
+            </div>
+
+            <script>
+                function openTab(evt, tabName) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("score-tab-content");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("score-tab-btn");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].style.backgroundColor = "transparent";
+                        tablinks[i].style.color = "#64748B";
+                        tablinks[i].style.fontWeight = "500";
+                        tablinks[i].style.boxShadow = "none";
+                    }
+                    document.getElementById(tabName).style.display = "block";
+                    evt.currentTarget.style.backgroundColor = "white";
+                    evt.currentTarget.style.color = "#111827";
+                    evt.currentTarget.style.fontWeight = "600";
+                    evt.currentTarget.style.boxShadow = "0 2px 4px rgba(0,0,0,0.05)";
+                }
+            </script>
+        </div>
+
+        <div style="margin-bottom: 40px;">
+            <div style="border: 2px solid #0066FF; border-radius: 12px; overflow: hidden;">
+                <div style="background-color: #0066FF; padding: 20px; text-align: center;">
+                    <h2 style="margin: 0; color: white; font-size: 18px; font-weight: 800; letter-spacing: 1px;">
+                        EVALUATOR REMARKS</h2>
+                </div>
+
+                <div style="background-color: white; padding: 30px;">
+                    <p
+                        style="margin: 0 0 25px 0; color: #4B5563; font-size: 15px; line-height: 1.7; font-style: italic;">
+                        "Showcased reliable technical fundamentals and the ability to solve core engineering problems with clear, functional code. This technical baseline is well-supported by a strong understanding of CS fundamentals and effective communication. With their current skill set and professional readiness, they are well-prepared for roles such as SDE or Full-stack Developer."
+                    </p>
+
+                    <div
+                        style="display: flex; justify-content: space-between; align-items: center; padding-top: 20px; border-top: 1px solid #E5E7EB;">
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <span style="color: #0066FF; font-size: 18px;">👤</span>
+                            <span style="color: #111827; font-weight: 600; font-size: 14px;">— NxtWave Technical
+                                Evaluator</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="color: #6B7280; font-size: 18px;">📅</span>
+                            <span style="color: #6B7280; font-size: 14px;">Evaluated on: 31 Jan 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            style="background: linear-gradient(180deg, #1E3A8A 0%, #0F172A 100%); border-radius: 0; padding: 40px; margin: 0 -40px -40px -40px;">
+
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+
+                <div style="flex-shrink: 0;">
+                    <h2
+                        style="margin: 0 0 8px 0; color: white; font-size: 26px; font-weight: 800; letter-spacing: 0.5px;">
+                        NxtWave Edge</h2>
+                    <p style="margin: 0; color: #94A3B8; font-size: 14px; font-weight: 400;">India's National Benchmark
+                        for Fresher Hiring</p>
+                </div>
+
+                <div
+                    style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 0 30px; flex-grow: 1; max-width: 600px;">
+                    <div class="hover-lift"
+                        style="background-color: rgba(31, 58, 75, 0.5); border: 1px solid rgba(100, 116, 139, 0.4); padding: 12px 18px; border-radius: 6px; display: flex; align-items: center; gap: 10px;">
+                        <span style="color: #10B981; font-size: 18px;">✓</span>
+                        <span style="color: #E2E8F0; font-size: 13px; font-weight: 500;">Integrity Verified</span>
+                    </div>
+                    <div class="hover-lift"
+                        style="background-color: rgba(31, 58, 75, 0.5); border: 1px solid rgba(100, 116, 139, 0.4); padding: 12px 18px; border-radius: 6px; display: flex; align-items: center; gap: 10px;">
+                        <span style="color: #10B981; font-size: 18px;">✓</span>
+                        <span style="color: #E2E8F0; font-size: 13px; font-weight: 500;">Offline Proctored</span>
+                    </div>
+                    <div class="hover-lift"
+                        style="background-color: rgba(31, 58, 75, 0.5); border: 1px solid rgba(100, 116, 139, 0.4); padding: 12px 18px; border-radius: 6px; display: flex; align-items: center; gap: 10px;">
+                        <span style="color: #10B981; font-size: 18px;">👁</span>
+                        <span style="color: #E2E8F0; font-size: 13px; font-weight: 500;">Zero AI Fraud</span>
+                    </div>
+                    <div class="hover-lift"
+                        style="background-color: rgba(31, 58, 75, 0.5); border: 1px solid rgba(100, 116, 139, 0.4); padding: 12px 18px; border-radius: 6px; display: flex; align-items: center; gap: 10px;">
+                        <span style="color: #10B981; font-size: 18px;">👤</span>
+                        <span style="color: #E2E8F0; font-size: 13px; font-weight: 500;">Human Evaluated</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
